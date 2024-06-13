@@ -23,8 +23,6 @@ public class InvoiceRequestMapperImpl implements InvoiceRequestMapper {
 
         Invoice invoice = new Invoice();
 
-
-
         invoice.setCustomerId( source.getCustomer() );
         invoice.setAmount( source.getAmount() );
         invoice.setDetail( source.getDetail() );

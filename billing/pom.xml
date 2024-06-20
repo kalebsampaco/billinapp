@@ -115,6 +115,16 @@
             <version>1.5.3.Final</version>
             <type>jar</type>
         </dependency>
+         <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version> <!-- Verifica que esta sea la última versión compatible -->
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version> <!-- Verifica que esta sea la última versión compatible -->
+        </dependency>
     </dependencies>
 
     <build>

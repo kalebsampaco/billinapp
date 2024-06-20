@@ -120,6 +120,7 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version> <!-- Verifica que esta sea la última versión compatible -->
         </dependency>
+
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
